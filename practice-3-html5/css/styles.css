@@ -1,0 +1,27 @@
+#welcome{
+            color: #2C5745
+        }
+/* .green-text{
+    color: rgb(0, 255, 60);
+} */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;
+}

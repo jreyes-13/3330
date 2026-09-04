@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML: Demo</title>
+    <!-- Using an external CSS file is a practical and efficient approach. -->
+    <!-- Defining CSS rules in an external file promotes separation of concerns, -->
+    <!-- allowing web developers and graphic designers to focus on their respective areas. -->    
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+         <h1 class="green-text">Welcome to CSCI 3330!</h1>
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="instructor.html">Instructor Information</a></li>
+                <li><a href="#">Assignments</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2 id="welcome" class="green-text">Assignments</h2>
+                <hr>
+            </header>
+            <section>
+                <h2>1. CV</h2>            
+                <p>Build a Single-Page CV. </p>
+                <p>Use the following image as reference for your page: </p>
+                <figure>
+                    <img src="images/cv_sample.png" alt="CV">
+                    <br/>
+                    <figcaption>Sample layout of CV</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>2. Forms</h2>            
+                <p>Create a feedback form. </p>
+                
+                <!-- TODO: Add an HTML form here -->
+                <form action="thankyou.html" method="get" class="form-example">
+                    <div class="form-example">
+                        <label for="form-name">Enter your name: </label>
+                        <input type="text" name="name" id="form-name" required />
+                    </div>
+                    <div class="form-example">
+                        <label for="form-email">Enter your email: </label>
+                        <input type="email" name="email" id="form-email" required />
+                    </div>
+                    <div class="form-example">
+                        <label for="form-password">Enter your password: </label>
+                        <input type="password" name="password" id="form-password" required />
+                    </div>
+                    <div class="form-example">
+                        <input type="submit" value="Subscribe!" />
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <hr>
+        <p><a href="https://www.utrgv.edu" target="_blank">The University of Texas Rio Grande Valley</a></p>
+        <p>Powered by &copy; Vaqueros Dev</p>
+    </footer>
+</body>
+</html>
